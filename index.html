@@ -24,13 +24,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-      <nav>
+    <header class="header">
+      <div class="container header-container">
+      <nav class="header-nav">
         <a href="./index.html" class="logo"
           >Web<span class="logo-black">Studio</span></a
         >
-        <ul>
+        <ul class="header-list">
           <li>
             <a class="medium main-link" href="./index.html">Studio</a>
           </li>
@@ -43,7 +43,7 @@
         </ul>
       </nav>
       <address class="contact-info">
-        <ul>
+        <ul class="contact-list">
           <li class="contact">
             <a class="contact-link" href="mailto:info@devstudio.com">
               info@devstudio.com
@@ -60,7 +60,7 @@
     </header>
     <main>
     
-      <section class="section hero">
+      <section class="hero">
         <div class="container">
         <h1 class="hero-header">Effective Solutions for Your Business</h1>
         <button class="btn-primary button-text" type="button">
@@ -71,7 +71,7 @@
       <section class="section features">
         <div class="container">
         <h2 class="feature-main-header">Features</h2>
-        <ul>
+        <ul class="feature-list">
           <li class="feature">
             <h3 class="feature-header">Strategy</h3>
             <p class="medium gray-text">
@@ -117,9 +117,10 @@
               src="./images/team1.jpg"
               class="team-card-img"
             />
-
+<div class="team-container">
             <h3 class="portfolio-header">Mark Guerrero</h3>
             <p class="gray-text team-p">Product Designer</p>
+</div>
           </li>
           <li class="team-card">
             <img
@@ -128,9 +129,10 @@
               src="./images/team2.jpg"
               class="team-card-img"
             />
-
+            <div class="team-container">
             <h3 class="portfolio-header">Tom Ford</h3>
             <p class="gray-text team-p">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-card">
             <img
@@ -139,9 +141,10 @@
               src="./images/team3.jpg"
               class="team-card-img"
             />
-
+            <div class="team-container">
             <h3 class="portfolio-header">Camila Garcia</h3>
             <p class="gray-text team-p">Marketing</p>
+            </div>
           </li>
           <li class="team-card">
             <img
@@ -150,9 +153,10 @@
               src="./images/team4.jpg"
               class="team-card-img"
             />
-
+            <div class="team-container">
             <h3 class="portfolio-header">Daniel Wilson</h3>
             <p class="gray-text team-p">UI Designer</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -160,15 +164,17 @@
       <section class="section portfolio-section">
         <div class="container">
         <h2 class="portfolio-h">Our Portfolio</h2>
-        <ul>
-          <li>
+        <ul class="portfolio-list">
+          <li class="portfolio-list-item">
             <img
               src="./images/portfolio1.jpg"
               width="360"
               alt="portfolio-img"
             />
+            <div class="portfolio-container">
             <h3 class="portfolio-header">Banking App</h3>
             <p class="portfolio-p">App</p>
+          </div>
           </li>
           <li>
             <img
@@ -176,8 +182,10 @@
               width="360"
               alt="portfolio-img"
             />
+            <div class="portfolio-container">
             <h3 class="portfolio-header">Cashless Payment</h3>
             <p class="portfolio-p">Marketing</p>
+          </div>
           </li>
           <li>
             <img
@@ -185,8 +193,10 @@
               width="360"
               alt="portfolio-img"
             />
+            <div class="portfolio-container">
             <h3 class="portfolio-header">Meditation App</h3>
             <p class="portfolio-p">App</p>
+          </div>
           </li>
           <li>
             <img
@@ -194,8 +204,10 @@
               width="360"
               alt="portfolio-img"
             />
+            <div class="portfolio-container">
             <h3 class="portfolio-header">Taxi Service</h3>
             <p class="portfolio-p">Marketing</p>
+          </div>
           </li>
           <li>
             <img
@@ -203,8 +215,10 @@
               width="360"
               alt="portfolio-img"
             />
+            <div class="portfolio-container">
             <h3 class="portfolio-header">Screen Illustrations</h3>
             <p class="portfolio-p">Design</p>
+          </div>
           </li>
           <li>
             <img
@@ -212,8 +226,10 @@
               width="360"
               alt="portfolio-img"
             />
+            <div class="portfolio-container">
             <h3 class="portfolio-header">Online Courses</h3>
             <p class="portfolio-p">Marketing</p>
+          </div>
           </li>
         </ul>
       </div>
@@ -221,7 +237,7 @@
     </main>
     <footer class="app-footer">
       <div class="container">
-      <a href="./index.html" class="logo"
+      <a href="./index.html" class="footer-link"
         >Web<span class="logo-white">Studio</span></a
       >
       <p class="footer-p">
